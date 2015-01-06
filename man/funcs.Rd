@@ -8,7 +8,7 @@
 code.
 }
 \usage{
-damoroso(x, a, theta, alpha, beta)
+damoroso(x, a, theta, alpha, beta, give_log=FALSE)
 }
 \arguments{
 \item{x}{vector of quantiles.}
@@ -16,6 +16,7 @@ damoroso(x, a, theta, alpha, beta)
 \item{theta}{theta parameter.}
 \item{alpha}{alpha parameter.}
 \item{beta}{beta parameter.}
+\item{give_log}{if true, the function returns the log of the density.}
 }
 \examples{
 # compare r and c function
