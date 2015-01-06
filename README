@@ -1,0 +1,20 @@
+RAmoroso R package
+==================
+This R Package provides Amoroso distribution functions.
+
+Using the package
+-----------------
+::
+
+  damoroso(x, a,theta,beta,alpha)
+ 
+*arguments*:
+
+- a
+- theta
+- beta
+- alpha
+
+License
+-------
+http://www.r-project.org/Licenses/GPL-2

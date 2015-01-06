@@ -1,0 +1,2 @@
+useDynLib(RAmoroso, damoroso_c = damoroso)
+export(damoroso)

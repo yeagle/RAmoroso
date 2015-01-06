@@ -1,0 +1,13 @@
+Package: RAmoroso
+Version: 0.1-0
+Date: 2014-12-07
+Title: Amoroso Distribution
+Authors@R: person("Dominik", "Wabersich", 
+                    role=c("aut", "cre"),
+                    email="dominik.wabersich@gmail.com"))
+Author: Dominik Wabersich [aut, cre]
+Maintainer: Dominik Wabersich <dominik.wabersich@gmail.com>
+Depends: R (>= 3.0.0) 
+License: GPL (>= 2)
+URL: https://github.com/todo
+Description: Provides Amoroso distribution functions.
