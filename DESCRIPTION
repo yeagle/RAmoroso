@@ -9,5 +9,5 @@ Author: Dominik Wabersich [aut, cre]
 Maintainer: Dominik Wabersich <dominik.wabersich@gmail.com>
 Depends: R (>= 3.0.0) 
 License: GPL (>= 2)
-URL: https://github.com/todo
+URL: https://github.com/yeagle/RAmoroso
 Description: Provides Amoroso distribution functions.

@@ -6,9 +6,9 @@ double density_amoroso(double x, double a, double theta, double alpha, double be
 {
   double d;
   
-  d = 1 / gamma(alpha) * fabs(beta / theta) * 
+  d = 1 / gammafn(alpha) * fabs(beta / theta) * 
       pow(( (x - a) / theta), (alpha * beta - 1)) *
-      exp(- pow(((x - a) / theta), beta) )
+      exp(- pow(((x - a) / theta), beta) );
 
   return d;
 }

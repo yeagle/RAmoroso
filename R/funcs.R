@@ -9,6 +9,9 @@ damoroso_r <- function(x, a, theta, alpha, beta)
 # Amoroso distribution function ported to C code
 damoroso <- function(x, a, theta, alpha, beta)
 {
-  d <- .Call(damoroso_c, x, a, theta, alpha, beta)
+  d <- vector("double", length=length(x))
+  for (i in 1:length(x)) {
+    d[i] <- .Call(damoroso_c, x[i], a, theta, alpha, beta)
+  }
   return(d)
 }
